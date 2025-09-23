@@ -1,29 +1,46 @@
----
-layout: default
-title: HTML Layout Template
----
-<section class="row">
-    <article class="columns twelve hero">
-        <h1>HTML Layout Template</h1>
-        <p>Template base con Jekyll y GitHub Pages para proyectos de diseño web</p>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> desgaste </title>
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="./favicon/favicon2.svg" />
+        <link rel="shortcut icon" href="./favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+        <link rel="manifest" href="./favicon/site.webmanifest" />
+        <!-- Open Graph Metadata -->
+        <meta property="og:title" content="Desgaste">
+        <meta property="og:description" content="Paralelismos de la erosión física y material en la movilidad">
+        <meta property="og:url" content="https://valt3rna.github.io/desgaste/">
+        <meta property="og:type" content="website">
+        <!-- css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+<body>
+    <header class="container" id="main-header">
         <nav>
-            <a href="{{ '/guia.html' | relative_url }}" title="Guía de Inicio" class="button">Comenzar</a>
-            <a href="https://github.com/juanfuent-es/centro.html-layout" target="_blank" title="Ir a Repositorio" class="button">GitHub</a>
+          <a href="{{ '/guia.html' | relative_url }}" title="Guía de Inicio" class="nav-link">Guía Inicio</a>
+          <a href="{{ '/' | relative_url }}" title="Ir a Inicio" class="nav-link">
+            <img src="./img/centro-logo.svg" alt="CENTRO Logotipo" width="100" height="20">
+          </a>
+          <a href="{{ '/rubrica.html' | relative_url }}" title="Rúbrica" class="nav-link">Rúbrica</a>
         </nav>
-    </article>
-</section>
-
-<section class="row mt-4">
-    <article class="columns twelve">
-        <pre><code># Clonar repositorio
-git clone https://github.com/usuario/repo.git
-
-# Instalar dependencias
-bundle install
-
-# Servidor local
-bundle exec jekyll serve
-</code></pre>
-    </article>
-</section>
-
+      </header>
+    <main>
+       <section>
+        <h1>Main</h1>
+       </section>
+    </main>
+    <footer class="container" id="main-footer">
+        <nav class="text-center">
+          <p>
+            <a href="{{ '/guia.html' | relative_url }}" title="Guía de Inicio">CENTRO 2025</a> | 
+            <a href="https://github.com/juanfuent-es/centro.html-layout" title="Ver en GitHub">Ver en GitHub</a>
+          </p>
+        </nav>
+      </footer>
+</body>
+</html>
