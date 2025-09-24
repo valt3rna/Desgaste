@@ -1,7 +1,7 @@
 :root {
     --font-base: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
-    --color-text: #FFF;
-    --color-bg: #000;
+    --color-text: #000000;
+    --color-bg: #ffffff;
 }
 
 /* Estilos default */
