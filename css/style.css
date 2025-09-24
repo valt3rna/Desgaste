@@ -1,7 +1,7 @@
 :root {
     --font-base: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
-    --color-text: #000000;
-    --color-bg: #ffffff;
+    --color-text: #ffffff;
+    --color-bg: #000000;
 }
 
 /* Estilos default */
@@ -205,7 +205,7 @@ hr {
 /* Mejoras para la rúbrica */
 section h3 {
     color: var(--color-text);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.676);
     padding-bottom: 0.5rem;
 }
 
